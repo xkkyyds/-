@@ -1,0 +1,30 @@
+*{
+        list-style:none;
+    }
+#list li{
+    /* background-color: red; */
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    font-size: 12px;
+}
+.news-inner-content{
+    position: relative;
+}
+.sub-coverage-description{
+    color:white;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    width: 100%;
+    line-height: 35px;
+    transition: 0.3s all;
+    font-size: 20px;
+}
+.sub-coverage-description:hover{
+    color:#FF9724 ;
+}
+.news-bgimg{
+    height:390px;
+    width:686px;
+}

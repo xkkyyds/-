@@ -1,0 +1,119 @@
+.content {
+    background-color: transparent;
+}
+
+.as-outer {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.as-title {
+    height: 60px;
+    width: 1200px;
+    line-height: 60px;
+    font-size: 26px;
+    color: #b02225;
+    background-color: #DFDFDF;
+    border-left: 4px solid #0e57a6;
+    transition: 0.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.as-title p {
+    margin-left: 25px;
+}
+
+.as-title:hover {
+    color: #fff;
+    background-color: #b68d8d;
+    border-left: 4px solid #0e57a6;
+}
+
+.as-display-box-outer {
+    margin-top: 35px;
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.as-display-box {
+    width: 570px;
+    height: 211px;
+    padding: 30px 0px;
+    margin-top: 15px;
+    font: 12px "微软雅黑";
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s;
+    user-select: none;
+}
+
+.as-display-box:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 30px #0e57a6;
+}
+
+.as-left-text {
+    width: 312px;
+    height: 100%;
+}
+
+.as-box-title {
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    border-left: 4px solid #b02225;
+    text-indent: 1em;
+    font-family: "仿宋", "仿宋_GB2312";
+}
+
+.as-box-title a {
+    display: flex;
+}
+
+.as-box-title a:hover {
+    color: #b02225;
+}
+
+.as-box-description {
+    margin-top: 35px;
+    font-size: 20px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+    text-indent: 2em;
+    line-height: 1.5;
+    font-family: "仿宋", "仿宋_GB2312";
+}
+
+.as-box-right {
+    width: 210px;
+    height: 140px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.as-box-right img {
+    width: 210px;
+    height: 140px;
+    line-height: 140px;
+    transition: 0.3s;
+}
+
+.as-box-right img:hover {
+    transform: scale(1.08);
+}
+
+#as-text-hightlight {
+    color: #b02225;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.as-box-title:hover #as-text-hightlight {
+    color: #0e57a6;
+}

@@ -1,0 +1,57 @@
+html, body {
+    position: relative;
+    height: 100%;
+  }
+  .swiper-container {
+    width: 1200px;
+    height: 512px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .gallery-top {
+    width: 1200px;
+    height: 512px;
+  }
+  .gallery-thumbs {
+    height: 150px;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+  .gallery-thumbs .swiper-slide {
+    height: 100%;
+    opacity: 1;
+  }
+  .gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+  }
+  .swiper-slide img{
+    width: 1200px;
+    height: 512px;
+  }
+  .sub-swiper img{
+    height: 150px;
+    width: 290px;
+    
+  }
+  .swiper-slide{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .swiper-slide a{
+    color:white;
+    transition: 0.3s all;
+    font-size: 20px;
+    margin-left: 65px;
+  }
+  .swiper-slide a:hover{
+    color:#FF9724 ;
+  }
+  #over-text{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    line-height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+}

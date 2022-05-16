@@ -1,0 +1,446 @@
+.content {
+    position: relative;
+    user-select: none;
+}
+
+
+/* 新闻栏标题 */
+
+.coverage-title {
+    margin-top: 100px;
+}
+
+.coverage-title div {
+    text-align: center;
+    width: 100%;
+}
+
+.coverage-title p {
+    margin-top: 15px;
+}
+
+.coverage-title a {
+    font-size: 30px;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: "仿宋", "仿宋_GB2312";
+}
+
+.coverage-title p:nth-child(2) a {
+    font-size: 17px;
+}
+
+.coverage-title a:hover {
+    color: #948f8a;
+    transition: 0.5s all;
+}
+
+
+/* 顶部轮播图 */
+
+.top-slide {
+    margin-top: 35px;
+}
+
+
+/* 次要闻 */
+
+.sub-coverage {
+    width: 1200px;
+    height: 600px;
+    /* background-image: url(../images/background/main-news.jpg); */
+    /* background-image:radial-gradient(circle at 0 0,rgba(0,97,136,0.5),rgba(204,163,155,0.5)); */
+    background-color: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+.wrap {
+    height: 390px;
+    width: 686px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.news-bgimg {
+    height: 390px;
+    width: 686px;
+    background-size: cover;
+}
+
+.wrap ul {
+    position: absolute;
+}
+
+.wrap ul li {
+    height: 170px;
+}
+
+.wrap ol {
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+}
+
+.wrap ol li {
+    height: 20px;
+    width: 20px;
+    background: #ccc;
+    border: solid 1px #666;
+    margin-left: 5px;
+    color: #000;
+    float: left;
+    line-height: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wrap ol .on {
+    background: #E97305;
+    color: #fff;
+}
+
+
+/* 右侧要闻链接 */
+
+.sub-coverage-right-content {
+    height: 100%;
+    width: 514px;
+    position: absolute;
+    right: 0;
+}
+
+#coverage-news {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-left: 35px;
+}
+
+#coverage-news li {
+    width: 514px;
+    height: 42px;
+}
+
+#coverage-news a {
+    color: #000;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: "仿宋", "仿宋_GB2312";
+}
+
+
+/* #coverage-news li:nth-child(1) a,
+#coverage-news li:nth-child(5) a,
+#coverage-news li:nth-child(9) a {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333399;
+} */
+
+#coverage-news a:hover {
+    color: #c8bcaf;
+    transition: 0.3s all;
+}
+
+.sub-coverage-right-content li {
+    justify-content: space-between;
+}
+
+
+/* 轮播图下面链接图片 */
+
+.down-pic {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 686px;
+    justify-content: space-between;
+}
+
+.down-pic-outer {
+    width: 332px;
+    height: 188px;
+    overflow: hidden;
+}
+
+.down-pic img {
+    height: 188px;
+    transition: 0.3s all;
+}
+
+.down-pic img:hover {
+    transform: scale(1.1);
+}
+
+
+/* 绘成就 */
+
+.img-banner {
+    width: 1200px;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 35px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+}
+
+.img-banner img {
+    width: 100%;
+    height: 113px;
+}
+
+.draw-achievement-outer {
+    width: 1072px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+}
+
+.fit {
+    height: 100%;
+    width: 40px;
+    background-color: #920000;
+    border-radius: 15px;
+    margin-left: 2px;
+    box-shadow: 0 1px 1px;
+    user-select: none;
+}
+
+.fit-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1px;
+    color: white;
+    height: 100%;
+    position: absolute;
+}
+
+.fit i {
+    font-size: 35px;
+    margin-top: 35px;
+    margin-left: 3.2px;
+}
+
+.fit p {
+    margin-top: 80px;
+    width: 30px;
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fit img {
+    transition: 0.3s all;
+}
+
+.fit img:hover {
+    transform: scale(1.1);
+}
+
+.fit-content {
+    width: 900px;
+    height: 350px;
+    border-radius: 25px;
+    background-color: rgba(207, 189, 189, 0.2);
+    visibility: hidden;
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit:active {
+    background-color: rgb(255, 127, 50);
+    transition: 0.3s all;
+}
+
+.fit:active i {
+    color: #9e1818;
+}
+
+
+/* active时取消visible的可见性 */
+
+.fit:active .visivle {
+    visibility: hidden;
+}
+
+
+/* 通过active类来保持active状态 */
+
+.fit.active .fit-content {
+    visibility: visible;
+}
+
+.fit.active {
+    background-color: rgb(255, 127, 50);
+    transition: 0.3s all;
+}
+
+.fit.active i {
+    color: #9e1818;
+}
+
+
+/* 内部介绍 */
+
+.fit-display {
+    width: 280px;
+    height: 320px;
+    position: relative;
+}
+
+.fit-display img {
+    width: 280px;
+    height: 150px;
+    margin-top: 35px;
+}
+
+.fit-display p {
+    width: 100%;
+    margin-top: 45px;
+    text-indent: 2em;
+    color: #D70016;
+    transition: 0.2s all;
+}
+
+.fit-display p:hover {
+    color: tomato;
+}
+
+.click-visit {
+    background-color: #DF1319;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    border-radius: 13px;
+    margin-left: 15px;
+    margin-top: 15px;
+    position: absolute;
+    bottom: 0;
+    transition: 2s all;
+}
+
+.click-visit:hover {
+    color: #f8c89c;
+}
+
+
+/* 好模范 */
+
+.model-role {
+    width: 1200px;
+}
+
+.model-role-banner img {
+    width: 100%;
+    height: 113px;
+}
+
+.model-role-banner {
+    width: 1200px;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.model-role-content {
+    width: 1072px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    position: relative;
+    /* align-items: center; */
+}
+
+.model-role-content img {
+    height: 251px;
+    width: 290px;
+    margin: auto 0;
+}
+
+.role-album {
+    width: 821px;
+    height: 350px;
+}
+
+
+/* 详细人物 */
+
+.role-album img {
+    width: 186px;
+    height: 250px;
+    transition: 0.4s all;
+}
+
+.img-outer {
+    width: 186px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.role-album img:hover {
+    transform: scale(1.1);
+}
+
+.role-detail li {
+    height: 340px;
+    width: 186px;
+    background-color: rgb(221, 221, 221)
+}
+
+.role-detail ul {
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    width: 821px;
+    height: 350px;
+}
+
+.role-detail li {
+    height: 100%;
+}
+
+.role-description p:nth-child(1) {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.2s all;
+    font-family: "仿宋", "仿宋_GB2312";
+}
+
+.role-description p:nth-child(2) {
+    color: #333333;
+    font-size: 18px;
+    margin-top: 15px;
+    text-indent: 2em;
+    transition: 0.2s all;
+    font-family: "楷体", "楷体_GB2312";
+}
+
+.role-description p:hover {
+    color: rgb(114, 97, 90);
+}
+
+@media all and (max-width:920px) {
+    .video-banner video {
+        height: 500px;
+    }
+}

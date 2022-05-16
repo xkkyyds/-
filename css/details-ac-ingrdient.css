@@ -1,0 +1,63 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.swiper-slide {
+    overflow: hidden;
+}
+
+.swiper-outer {
+    margin: 0 auto;
+    width: 1300px;
+    height: 700px;
+    box-shadow: 10px 10px 80px #000;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.swiper-pagination {
+    color: #000;
+}
+
+.swiper-zoom-container p {
+    width: 350px;
+    /* line-height: 2; */
+    margin-left: 35px;
+    text-indent: 2em;
+    text-align: left;
+    line-height: 30px;
+    font-size: 30px;
+    font-family: "楷体", "楷体_GB2312";
+}
+
+
+/* .swiper-zoom-container img {
+    /* width: 370px; */
+
+
+/* height: 500px; */
+
+
+/* } */
+
+#speical-text {
+    width: 700px;
+    line-height: 26px;
+}

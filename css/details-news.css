@@ -1,0 +1,271 @@
+.news-title {
+    margin: 0 auto;
+    margin-top: 70px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    background-color: rgb(194, 181, 181);
+    position: sticky;
+    top: 70px;
+    z-index: 999;
+}
+
+.news-title p {
+    font-size: 30px;
+    color: #404040;
+    font-weight: bold;
+    font-family: "楷体", "楷体_GB2312";
+}
+
+.sub-title {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: rgb(194, 181, 181);
+    box-shadow: 0px 1px 30px #000;
+}
+
+.sub-title-inner {
+    margin-left: 1300px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #404040;
+}
+
+
+/* 左侧分享栏 */
+
+.left-share-box {
+    height: 448px;
+    width: 130px;
+    position: sticky;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 135px;
+}
+
+.qrcode {
+    width: 100%;
+    margin-top: 35px;
+    background-color: #F0F2F5;
+    color: #808080;
+    text-align: center;
+    transition: 0.2s all;
+}
+
+.qrcode:hover {
+    background-color: #348CEC;
+    color: rgb(255, 255, 255);
+}
+
+.qrcode img {
+    width: 115px;
+    height: 115px;
+    margin-top: 15px;
+}
+
+.qrcode p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.share-inner-box {
+    height: 60px;
+    line-height: 60px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.share-inner-box a {
+    font-size: 42px;
+    color: gray;
+}
+
+.left-share-box .share-inner-box:nth-child(2):hover a {
+    color: #71D146;
+}
+
+.left-share-box .share-inner-box:nth-child(3):hover a {
+    color: #F96041;
+}
+
+.left-share-box .share-inner-box:nth-child(4):hover a {
+    color: #FFBE31;
+}
+
+
+/* 中间新闻内容 */
+
+.details-news-content {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.left-share-box,
+.news-text-area,
+.right-box {
+    margin-top: 35px;
+}
+
+
+/* 新闻区域 */
+
+.news-text-area {
+    width: 1200px;
+    font-size: 24px;
+    font-family: "仿宋", "仿宋_GB2312";
+    text-indent: 2em;
+    font-weight: 700;
+}
+
+#news-content-highlight {
+    color: #348CEC;
+    font-weight: bold;
+}
+
+
+/* 评论区域 */
+
+.comments {
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 800px;
+    position: relative;
+}
+
+.comment-title p:nth-child(1) {
+    font-size: 28px;
+    float: left;
+}
+
+.comment-title p:nth-child(2) {
+    float: left;
+    margin-left: 35px;
+    height: 100%;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.comment-input form {
+    width: 800px;
+}
+
+.comment-input form img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+
+.comment-input-outer {
+    width: 800px;
+    height: 100px;
+    float: left;
+}
+
+.comment-inner {
+    width: 650px;
+    height: 100px;
+    float: left;
+}
+
+.comment-area {
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 600px;
+    height: 75px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #4b4b4b;
+    box-shadow: 0px 0px 1px #000;
+    resize: none;
+    margin-left: 35px;
+}
+
+.submit-button {
+    width: 100px;
+    height: 100px;
+    background-color: #379be9;
+    font-size: 16px;
+    line-height: 100px;
+    text-align: center;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #63ade6;
+}
+
+
+/* 全部评论 */
+
+#user-title {
+    font-size: 28px;
+}
+
+.comment-detail {
+    margin-top: 35px;
+}
+
+.comment-detail img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.main-comment-detail {
+    display: flex;
+    width: 700px;
+}
+
+.comment-text {
+    width: 100%;
+    margin-left: 15px;
+}
+
+.comment-text p:nth-child(1) {
+    font-weight: bold;
+}
+
+.comment-text p:nth-child(2) {
+    margin-top: 15px;
+}
+
+.interact {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.interact a {
+    margin-left: 25px;
+    color: #404040;
+}
+
+.interact a:active {
+    color: #348CEC;
+}
+
+
+/* 具体新闻样式 */
+
+#hot-words {
+    border: 50px solid #fff;
+    margin-left: -45px;
+}
+
+.news-text-area p:nth-child(1) {
+    line-height: 35px;
+}
